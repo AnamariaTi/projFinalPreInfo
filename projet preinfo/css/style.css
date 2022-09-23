@@ -1,0 +1,201 @@
+@media (min-width: 768px) {
+    @font-face {
+        font-family: "kaushan-script";
+        src: url("../fonts/kaushan-script/KaushanScript-Regular.otf");
+    }
+
+    header {
+
+        font-family: "kaushan-script";
+        background-color: #2E4A62;
+        padding: 2px;
+        text-align: center;
+    }
+
+    header h3 {
+        font-family: "kaushan-script";
+        text-align: left;
+        color: #F0EDE5;
+    }
+
+    body {
+        font-size: large;
+        font-family: cursive;
+        background-color: #F0EDE5;
+    }
+
+    nav {
+        font-family: "kaushan-script";
+        background-color: #B4B7BA;
+        padding: 0.2em;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: .5em;
+        font-size: 1.5em;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        padding: .5em;
+        background-color: #2E4A62;
+        color: #F0EDE5;
+        border: 5px solid #B4B7BA;
+        border-radius: 20px;
+    }
+
+    nav a:visited {
+        background-color: #2E4A62;
+    }
+
+    nav a:hover {
+        background-color: #2E4A62;
+        border: 5px solid white;
+        color: white;
+    }
+
+    nav a:active {
+        background-color: white;
+        color: #2E4A62;
+    }
+
+
+
+    main {
+        grid-area: main;
+
+        font-size: 1em;
+        color: slategray;
+        display: inline-block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    footer {
+        font-family: "kaushan-script";
+        clear: both;
+        background-color: #2E4A62;
+        color: #F0EDE5;
+        padding: .1em;
+        text-align: center;
+    }
+
+    h1 {
+
+        margin: 2px;
+        padding: 50px;
+        position: relative;
+        font-family: cursive;
+        color: whitesmoke;
+    }
+
+    h2 {
+        text-align: center;
+        display: flex;
+        font-size: 3em;
+        margin: 2px;
+        border: outset;
+    }
+
+
+   .figures {
+        float: left;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 80%;
+    }
+    .figure {
+    
+        width: 30%;
+        margin: auto;
+        float: left;
+        color: #F0EDE5;
+    }
+
+    .figure  img {
+        border: 1px solid #2E4A62;
+        border-radius: 20px;
+        padding: .5rem;
+            width: 60%;
+        }
+        
+        .figure:hover {
+            width: 50%;
+            color: black;
+        }
+        
+        img{
+            width: 250px;
+            height: 250px;
+        }
+      form {
+            margin: auto;
+            width: auto;
+            height: 645px;
+            padding: 1em;
+            border-radius: 1em;
+            display: table-caption;
+        }
+        
+        
+        .button {
+            padding-left: 90px;
+            margin-left: .5em;
+        }
+        
+        .inter {
+            width: 400px;
+            height: 300px;
+            margin: 10px;
+            border: #2E4A62;
+            padding: 10px;
+        }
+    .contact {
+       display: flex;
+        background-image: url(https://www.altea-services.ch/sites/uploads/2018/03/cyber-securite.jpeg);
+        color: black;
+        text-align: center;
+        border: #2E4A62;
+        margin: 2%;
+
+    }
+
+    .con2 {
+
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+      padding-left: 55%;
+        
+
+
+    }
+
+    .visteContact {
+        display: inline-block;
+        align-content: center;
+        border: 2px;
+        margin: 2%;
+
+
+    }
+
+    .anonim {
+
+
+        font-family: "kaushan-script";
+        font-size: xx-large;
+        text-align: center;
+
+
+    }
+
+    .interview li {
+        font-family: "kaushan-script";
+        font-size: x-large;
+
+    }
+}
